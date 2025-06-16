@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "c8438e25-c42f-47e4-b556-637b5036f619"
+                    "ioValue": "cdf87ddf-7153-488b-88b3-af0e68143a4e"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -119,8 +119,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6625560538116593,
-            "y": 0.34078212290502796,
+            "x": 0.6646825396825397,
+            "y": 0.3575418994413408,
             "uniqueID": "cdf87ddf-7153-488b-88b3-af0e68143a4e",
             "ioValues": [
                 {
@@ -137,8 +137,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.6732804232804233,
-            "y": 0.6396648044692737,
+            "x": 0.6785714285714286,
+            "y": 0.6480446927374302,
             "uniqueID": "a1754a77-9fb8-43c0-9ae0-2720e19e0c51",
             "ioValues": [
                 {
@@ -199,17 +199,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "c8438e25-c42f-47e4-b556-637b5036f619",
-            "ap2ID": "8c480581-0d83-4ea1-ac6f-f065a9c4e362"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Shape 1",
             "ap2Primary": false,
             "ap1ID": "c8438e25-c42f-47e4-b556-637b5036f619",
             "ap2ID": "a1754a77-9fb8-43c0-9ae0-2720e19e0c51"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "cdf87ddf-7153-488b-88b3-af0e68143a4e",
+            "ap2ID": "8c480581-0d83-4ea1-ac6f-f065a9c4e362"
         }
     ],
     "unitsKey": "MM",
