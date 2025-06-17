@@ -152,6 +152,36 @@
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
             "unionType": "Fusion"
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.41591928251121074,
+            "y": 0.8212290502793296,
+            "uniqueID": "4dbc8b1a-5002-447a-8e49-6b4c5edfcb01",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "98a0498f-0e50-449f-bcfb-3713a5326abd"
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry."
         }
     ],
     "allConnectors": [
@@ -189,6 +219,13 @@
             "ap2Primary": true,
             "ap1ID": "98a0498f-0e50-449f-bcfb-3713a5326abd",
             "ap2ID": "c8438e25-c42f-47e4-b556-637b5036f619"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "98a0498f-0e50-449f-bcfb-3713a5326abd",
+            "ap2ID": "4dbc8b1a-5002-447a-8e49-6b4c5edfcb01"
         },
         {
             "ap1Name": "geometry",
