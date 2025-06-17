@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "8c480581-0d83-4ea1-ac6f-f065a9c4e362",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "cdf87ddf-7153-488b-88b3-af0e68143a4e"
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -52,8 +57,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.20634920634920637,
-            "y": 0.6061452513966481,
+            "x": 0.1297709923664122,
+            "y": 0.6762402088772846,
             "uniqueID": "637a6eba-44da-4ad9-b1d8-eec74c45a038",
             "ioValues": [
                 {
@@ -70,8 +75,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3604497354497354,
-            "y": 0.5,
+            "x": 0.30025445292620867,
+            "y": 0.48563968668407315,
             "uniqueID": "98a0498f-0e50-449f-bcfb-3713a5326abd",
             "ioValues": [
                 {
