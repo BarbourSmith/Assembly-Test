@@ -156,8 +156,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.41591928251121074,
-            "y": 0.8212290502793296,
+            "x": 0.32174887892376686,
+            "y": 0.8519553072625697,
             "uniqueID": "4dbc8b1a-5002-447a-8e49-6b4c5edfcb01",
             "ioValues": [
                 {
@@ -191,7 +191,7 @@
             "uniqueID": "3c5fd4e8-8097-430b-a3d6-8fa48b910885",
             "ioValues": [
                 {
-                    "name": "Shape 1",
+                    "name": "Shape 4",
                     "ioValue": ""
                 }
             ],
@@ -257,7 +257,7 @@
         },
         {
             "ap1Name": "Gcode",
-            "ap2Name": "Shape 1",
+            "ap2Name": "Shape 4",
             "ap2Primary": false,
             "ap1ID": "4dbc8b1a-5002-447a-8e49-6b4c5edfcb01",
             "ap2ID": "3c5fd4e8-8097-430b-a3d6-8fa48b910885"
