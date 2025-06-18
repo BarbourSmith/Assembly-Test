@@ -19,7 +19,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "8c480581-0d83-4ea1-ac6f-f065a9c4e362",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "3c5fd4e8-8097-430b-a3d6-8fa48b910885"
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -156,8 +161,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.30886243386243384,
-            "y": 0.8128491620111732,
+            "x": 0.3792415169660679,
+            "y": 0.8072625698324022,
             "uniqueID": "4dbc8b1a-5002-447a-8e49-6b4c5edfcb01",
             "ioValues": [
                 {
@@ -209,7 +214,7 @@
         {
             "atomType": "Input",
             "name": "name1",
-            "x": 0.039599999999999996,
+            "x": 0.033,
             "y": 0.5335195530726257,
             "uniqueID": "71304fa3-dec6-40c1-becb-e08de1e9a743",
             "ioValues": [],
