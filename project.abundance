@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": ""
+                    "ioValue": "3c5fd4e8-8097-430b-a3d6-8fa48b910885"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -179,20 +179,29 @@
                 {
                     "name": "Cut Through",
                     "ioValue": 1
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Assembly-Test"
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry."
+            "description": "Generates Maslow gcode from the input geometry.",
+            "partName": "Assembly-Test"
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5818385650224215,
-            "y": 0.840782122905028,
+            "x": 0.5767195767195767,
+            "y": 0.8519553072625697,
             "uniqueID": "3c5fd4e8-8097-430b-a3d6-8fa48b910885",
             "ioValues": [
                 {
                     "name": "Shape 4",
-                    "ioValue": ""
+                    "ioValue": "4dbc8b1a-5002-447a-8e49-6b4c5edfcb01"
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": "98a0498f-0e50-449f-bcfb-3713a5326abd"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -240,6 +249,13 @@
             "ap2Primary": false,
             "ap1ID": "98a0498f-0e50-449f-bcfb-3713a5326abd",
             "ap2ID": "4dbc8b1a-5002-447a-8e49-6b4c5edfcb01"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 5",
+            "ap2Primary": false,
+            "ap1ID": "98a0498f-0e50-449f-bcfb-3713a5326abd",
+            "ap2ID": "3c5fd4e8-8097-430b-a3d6-8fa48b910885"
         },
         {
             "ap1Name": "geometry",
