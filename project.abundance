@@ -19,12 +19,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "8c480581-0d83-4ea1-ac6f-f065a9c4e362",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "3c5fd4e8-8097-430b-a3d6-8fa48b910885"
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -62,8 +57,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.1297709923664122,
-            "y": 0.6762402088772846,
+            "x": 0.20359281437125748,
+            "y": 0.8072625698324022,
             "uniqueID": "637a6eba-44da-4ad9-b1d8-eec74c45a038",
             "ioValues": [
                 {
@@ -214,8 +209,8 @@
         {
             "atomType": "Input",
             "name": "name1",
-            "x": 0.04,
-            "y": 0.8072625698324022,
+            "x": 0.039599999999999996,
+            "y": 0.5335195530726257,
             "uniqueID": "71304fa3-dec6-40c1-becb-e08de1e9a743",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
