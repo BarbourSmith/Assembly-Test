@@ -4,13 +4,6 @@
   "y": 0,
   "uniqueID": "084185dc-f70e-44f9-a42e-eae906728967",
   "name": "Assembly-Test",
-  "ioValues": [
-    {
-      "name": "Up",
-      "ioValue": 20,
-      "currentEquation": "20"
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -20,47 +13,71 @@
       "uniqueID": "8c480581-0d83-4ea1-ac6f-f065a9c4e362"
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.27645502645502645,
-      "y": 0.8384401114206128,
-      "uniqueID": "id-40"
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.421957671957672,
-      "y": 0.4902506963788301,
-      "uniqueID": "id-44",
+      "atomType": "Molecule",
+      "x": 0.46825396825396826,
+      "y": 0.8217270194986073,
+      "uniqueID": "id-60",
+      "name": "Test",
       "ioValues": [
         {
-          "name": "height",
-          "ioValue": 20
+          "name": "Height",
+          "ioValue": 10
         }
-      ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.38718662952646243,
-      "uniqueID": "id-48",
-      "name": "Up",
-      "type": "number"
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-62"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.43732590529247906,
+          "uniqueID": "id-64",
+          "name": "Height",
+          "type": "number"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.2757936507936508,
+          "y": 0.6016713091922006,
+          "uniqueID": "id-67"
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.4365079365079365,
+          "y": 0.403899721448468,
+          "uniqueID": "id-71"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-64",
+          "ap2ID": "id-71"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-67",
+          "ap2ID": "id-71"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-71",
+          "ap2ID": "id-62"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-40",
-      "ap2ID": "id-44"
-    },
-    {
       "ap2Name": "number or geometry",
-      "ap1ID": "id-44",
+      "ap1ID": "id-60",
       "ap2ID": "8c480581-0d83-4ea1-ac6f-f065a9c4e362"
-    },
-    {
-      "ap2Name": "height",
-      "ap1ID": "id-48",
-      "ap2ID": "id-44"
     }
   ],
   "unitsKey": "MM",
