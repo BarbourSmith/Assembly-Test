@@ -14,16 +14,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.46825396825396826,
-      "y": 0.8217270194986073,
+      "x": 0.40698619008935827,
+      "y": 0.42618384401114207,
       "uniqueID": "id-60",
       "name": "Test",
-      "ioValues": [
-        {
-          "name": "Height",
-          "ioValue": 10
-        }
-      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -35,7 +29,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.43732590529247906,
+          "y": 0.15384615384615385,
           "uniqueID": "id-64",
           "name": "Height",
           "type": "number"
