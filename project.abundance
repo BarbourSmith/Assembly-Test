@@ -18,6 +18,12 @@
       "y": 0.42618384401114207,
       "uniqueID": "id-60",
       "name": "Test",
+      "ioValues": [
+        {
+          "name": "Height",
+          "ioValue": 10
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -38,13 +44,29 @@
           "atomType": "Rectangle",
           "x": 0.2757936507936508,
           "y": 0.6016713091922006,
-          "uniqueID": "id-67"
+          "uniqueID": "id-67",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
         },
         {
           "atomType": "Extrude",
           "x": 0.4365079365079365,
           "y": 0.403899721448468,
-          "uniqueID": "id-71"
+          "uniqueID": "id-71",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -65,12 +87,24 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Color",
+      "x": 0.5985449735449735,
+      "y": 0.4568245125348189,
+      "uniqueID": "id-87",
+      "selectedColor": "Orange"
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-60",
+      "ap2ID": "id-87"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-87",
       "ap2ID": "8c480581-0d83-4ea1-ac6f-f065a9c4e362"
     }
   ],
