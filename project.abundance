@@ -15,9 +15,9 @@
     {
       "atomType": "Color",
       "x": 0.5945767195767195,
-      "y": 0.4651810584958217,
+      "y": 0.49860724233983283,
       "uniqueID": "id-87",
-      "selectedColor": "Steel"
+      "selectedColor": "Brass"
     },
     {
       "atomType": "Molecule",
@@ -94,6 +94,18 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.38227513227513227,
+      "y": 0.7576601671309192,
+      "uniqueID": "id-105",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
